@@ -7,10 +7,10 @@ class Post
     @@all << self
   end
 
-  def title
-    @title
-    # title
-  end
+  # def title
+  #   @title
+  #   # title
+  # end
 
   def self.all
     @@all
