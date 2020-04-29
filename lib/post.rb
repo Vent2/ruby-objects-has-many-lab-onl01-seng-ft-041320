@@ -7,7 +7,7 @@ class Post
     @@all << self
   end
 
-  def title(title)
+  def title
     @title
   end
 
