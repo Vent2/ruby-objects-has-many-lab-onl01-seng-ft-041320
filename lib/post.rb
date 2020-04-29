@@ -8,8 +8,8 @@ class Post
   end
 
   def title
-    title << @title
-    title
+    @title
+    # title
   end
 
   def self.all
