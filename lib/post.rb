@@ -7,9 +7,8 @@ class Post
     @@all << self
   end
 
-  def title(title)
-    @title = title
-    title
+  def title
+    @title
   end
 
   def self.all
