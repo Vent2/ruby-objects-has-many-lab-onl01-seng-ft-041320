@@ -8,7 +8,7 @@ class Post
   end
 
   def title(title)
-    self.title = title
+    self.title == title
   end
 
   def self.all
